@@ -6,7 +6,6 @@
   	padding:2%;
 }
 
-
 .b2{
 	text-align:center;
 }
@@ -14,9 +13,14 @@
 .b3{
 	text-align:left;
 }
+
 .img1{
 	width:80px;
 	height:80px;
+}
+
+.img1:hover{
+	opacity:50%;	
 }
 
 .img2{
@@ -25,9 +29,40 @@
 	margin-right:-10px;
 }
 
+.textos:hover{
+	font-weight:bold;
+	background-color:#5564eb;
+}
+
+.textos{
+	text-align:center;
+	display:inline-block;
+}
+
 .texto1{
 	position:relative;
 	color:#0000ff;
 	top:-420px;
-	display:inline;
+	display:inline-block;
+	width: 700px;
 }
+
+.img3{
+	width:250px;
+	height:240px;	
+}
+
+.b4{
+	background-color:#40D3CA;
+	text-align:center;
+	text-align-last:down;
+  	padding:1%;
+	margin-top:-420px;
+	position:relative;
+}
+
+
+	
+	
+	
+	
